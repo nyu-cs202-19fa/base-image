@@ -81,6 +81,7 @@ Vagrant.configure("2") do |config|
      apt-get -y install gdb strace htop make automake autoconf pkg-config
      apt-get -y install ctags
      apt-get -y install gitk
+     apt-get -y install clang-format
      echo 'PATH="$PATH:/usr/local/go/bin:$GOPATH/bin:$HOME/.local/bin"' >> /etc/profile
      update-alternatives --set editor /usr/bin/vim.nox
    SHELL
